@@ -1,6 +1,7 @@
 from SearchEngineBase import SearchEngineBase
 from SearchEngineBase import main
 
+
 class SimpleEngine(SearchEngineBase):
     def __init__(self):
         super(SimpleEngine, self).__init__()
